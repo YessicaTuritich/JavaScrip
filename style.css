@@ -1,18 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    
+
 }
+
 body {
-    height:100vh;
+    height: 100vh;
     width: 100vw;
     background-color: rgb(249, 252, 255);
     font-family: sans-serif;
     text-align: center;
-      
+
 }
-.header__base{ /*header padre*/
+
+.header__base {
+    /*header padre*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,7 +25,7 @@ body {
 
 }
 
-.linksOrg{ 
+.linksOrg {
     display: flex;
     flex-direction: column;
 }
@@ -32,21 +35,21 @@ a {
     color: white;
 }
 
-.linkDos{ 
+.linkDos {
     color: black;
 }
 
 * {
     margin: 0;
     padding: 0;
-    
-    }
 
-h1{
+}
+
+h1 {
     text-align: center;
-    font-size:3.0rem;
-   } 
-    
+    font-size: 3.0rem;
+}
+
 .container {
     margin: auto;
     padding: 10px;
@@ -54,19 +57,19 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    }
-    
+}
+
 .items {
     flex: 1;
     padding: 50px;
-    }
-
-.form-control{
-    border: 2.5px solid rgb(0, 0, 0);
-    border-radius: 5px 5px;    
 }
 
-.form-boton{
+.form-control {
+    border: 2.5px solid rgb(0, 0, 0);
+    border-radius: 5px 5px;
+}
+
+.form-boton {
     background-color: rgb(28, 89, 124);
     border: none;
     color: white;
@@ -75,31 +78,31 @@ h1{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
+}
 
 
 input {
     margin: 10px 10px 10px;
-    }
+}
 
 .mostrarDatos {
     color: black;
-    font-size:1.8rem;
+    font-size: 1.8rem;
     padding-top: 10px;
     padding-bottom: 10px;
     font-style: normal;
     font-weight: bold;
-    }
-    
+}
 
-.card{
-    background-color:rgb(189, 180, 180);
-    padding: 1rem ; 
+
+.card {
+    background-color: rgb(189, 180, 180);
+    padding: 1rem;
 }
 
 /* SWEET ALERT CSS */
 
-  button {
+button {
     background-color: rgb(28, 89, 124);
     color: whitesmoke;
     border: 0;
@@ -112,26 +115,28 @@ input {
     cursor: pointer;
     white-space: nowrap;
     margin: 10px;
-  }
-  h1 {
+}
+
+h1 {
     border-bottom: solid 2px grey;
-  }
-  #success {
+}
+
+#success {
     background: green;
-  }
+}
 
 
-  /* PRO */
+/* PRO */
 
- 
-  #profesionales {
+
+#profesionales {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: space-between;
-  }
-  
-  #profesionales li {
+}
+
+#profesionales li {
     border: 1px solid #f1f1f1;
     list-style-type: none;
     background-color: #fff;
@@ -140,4 +145,4 @@ input {
     border: 1px solid #ccc;
     margin: .5rem;
     width: 100px;
-  }
+}
