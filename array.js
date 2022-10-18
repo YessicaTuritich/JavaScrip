@@ -57,7 +57,7 @@ do{
     switch(opciones){
 
 
-        case 'r':
+        case 'f':
             estudiante = prompt("ingrese su nombre (Minimo 3 caracteres): ");
             validarString();
             password = prompt("ingrese su contraseña (8 caracteres o más): ");
