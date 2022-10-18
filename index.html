@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+	<div class="container">
+	<h1>Promedio de notas</h1>
+	<div class="items">
+		<div class="app">
+		<div class="form-grupo">
+			<input
+			type="text"
+			class="form-control"
+			placeholder="FISICA"
+			id="fisica"
+			/>
+		</div>
+		<div class="form-grupo">
+			<input
+			type="text"
+			class="form-control"
+			placeholder="INGLES"
+			id="ingles"
+			/>
+		</div>
+		<div class="form-grupo">
+			<input
+			type="text"
+			class="form-control"
+			placeholder="MATEMATICAS"
+			id="matematica"
+			/>
+		</div>
+		<div class="form-grupo">
+			<input
+			type="text"
+			class="form-control"
+			placeholder="LENGUA"
+			id="lengua"
+			/>
+		</div>
+		<div>
+			<input
+			type="button"
+			value="Mostrar porcentaje"
+			class="form-boton"
+			onclick="calcular()"
+			/>
+		</div>
+		</div>
+	</div>
+	<div class="form-grupo mostrarDatos">
+		<p id="mostrarDatos"></p>
+	</div>
+	</div>
+
+    <script src="/main.js"></script>
+	<script src="/array.js"></script>
+
+</body>
+</html>
